@@ -1,0 +1,378 @@
+-- Data Manipulation Language (DML) SQL Script
+
+INSERT ALL
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('ntd_1', 'NTD general', 'Neural Tube Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('ntd_2', 'Anencephaly', 'Neural Tube Defect', 4647, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('ntd_3', 'Encephalocele', 'Neural Tube Defect', 10502, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('ntd_4', 'Spina bifida', 'Neural Tube Defect', 2758, 'myelomeningocele, meningocele, spina bifida occulta', 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('eye_1', 'Eye Defect general', 'Eye Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('eye_2', 'Anopthalmia', 'Eye Defect', 5243, 'Micropthalmia', 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_1', 'Heart Defect general', 'Heart Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_2', 'Atrioventricular septal defect', 'Heart Defect', 1859, 'AVSD', 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_3', 'Coarctation of the aorta', 'Heart Defect', 1795, NULL, 'cardiac catheterization')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_4', 'Common truncus', 'Heart Defect', 15696, 'Truncus arteriosus', 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_5', 'Double outlet right ventricle', 'Heart Defect', 5997, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_6', 'Ebstein anomaly', 'Heart Defect', 13047, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_7', 'Hypoplastic left heart syndrome', 'Heart Defect', 3841, NULL, 'medicine, nutrition, surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_8', 'Interrupted aortic arch', 'Heart Defect', 16066, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_9', 'Pulmonary valve atresia and stenosis', 'Heart Defect', 1052, NULL, 'medication, cardiac catheterization, surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_10', 'Pulmonary valve atresia', 'Heart Defect', 7104, NULL, 'medication, cardiac catheterization, surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_11', 'Single ventricle', 'Heart Defect', 13351, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_12', 'Tetralogy of Fallot', 'Heart Defect', 1813, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_13', 'Total anomalous pulmonary venous connection', 'Heart Defect', 7809, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_14', 'Transposition of the great arteries', 'Heart Defect', 2695, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_15', 'Dextro-transposition of great arteries', 'Heart Defect', 3413, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_16', 'Tricuspid valve atresia and stenosis', 'Heart Defect', 5938, 'Tricuspid atresia', 'medicines, nutrition, surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('heart_17', 'Tricuspid valve atresia', 'Heart Defect', 9751, NULL, 'medicines, nutrition, surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('mouth_face_1', 'Mouth/Face Defect general', 'Mouth/Face Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('mouth_face_2', 'Cleft lip with cleft palate', 'Mouth/Face Defect', 1563, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('mouth_face_3', 'Cleft lip without cleft palate', 'Mouth/Face Defect', 2807, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('mouth_face_4', 'Cleft palate', 'Mouth/Face Defect', 1687, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('stom_int_1', 'Stomach/Intestinne Defect general', 'Stomach/Intestinne Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('stom_int_2', 'Esophageal atresia', 'Stomach/Intestine Defect', 4144, 'Tracheoesophageal fistula', 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('stom_int_3', 'Rectal and large instestinal atresia/stenosis', 'Stomach/Intestine Defect', 2242, 'Anorectal malformation', NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('musc_bone_1', 'Muscle/Bone Defect general', 'Muscle/Bone Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('musc_bone_2', 'Clubfoot', 'Muscle/Bone Defect', 593, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('musc_bone_3', 'Diaphragmatic hernia', 'Muscle/Bone Defect', 3591, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('musc_bone_4', 'Gastroschisis', 'Muscle/Bone Defect', 1953, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('musc_bone_5', 'Limb defects', 'Muscle/Bone Defect', 1943, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('musc_bone_6', 'Omphalocele', 'Muscle/Bone Defect', 4175, NULL, 'surgery')
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('gene_def_1', 'Chromosome (Gene) Defect general', 'Chromosome (Gene) Defect', NULL, NULL, NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('gene_def_2', 'Trisomy 13', 'Chromosome (Gene) Defect', 7409, 'Patau syndrome', NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('gene_def_3', 'Trisomy 18', 'Chromosome (Gene) Defect', 3315, 'Edwards syndrome', NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('gene_def_4', 'Trisomy 21', 'Chromosome (Gene) Defect', 707, 'Down syndrome', NULL)
+INTO birth_defects(birth_defect_id, birth_defect_name, birth_defect_type, frequency, other_names, treatment) VALUES
+('other_1', 'Unspecified birth defect', 'Unspecified birth defect', NULL, NULL, NULL)
+SELECT * FROM dual;
+
+INSERT ALL
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date) VALUES
+(topic_id_seq.nextval, 'Genetics of Spina Bifida and Anencephaly', 'genetic', 'ntd_1', NULL, 'Duke University Medical Center', 'USA', 'completed', DATE '2020-04-02')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Dosage Effects of Folic Acid on Blood Folates of Honduran Women', 'complex', 'ntd_1', 'folic acid', 'PROTEXSA', 'Honduras', 'completed', DATE '2005-09-05')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Efficacy and Safety of Sirolimus to Vascular Anomalies', 'complex', 'other_1', 'Sirolimus', 'West China Hospital', 'China', 'completed', DATE '2022-05-15')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Onreltea (Brimonidine) Gel In Pediatric Patients With Capillary Malformations', 'complex', 'other_1', 'Brimonidine 0.33% gel', 'The Hospital for Sick Children', 'Canada', 'terminated', DATE '2019-04-16')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Effectiveness of Comprehensive Tertiary Interventions on Incidence and Clinical Outcomes of Birth Defects', 'complex', 'other_1', NULL, 'Children''s Hospital of Fudan University', 'China', 'recruiting', DATE '2022-03-11')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Patient Reported Outcomes for Vascular Malformations EmbolizatioN (PROVEN)', 'complex', 'other_1', NULL, 'Johns Hopkins University', 'USA', 'recruiting', DATE '2022-09-20')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Congenital Hand and Upper Extremity Malformations', 'complex', 'musc_bone_5', 'examination', 'Assiut University', 'Egypt', 'not yet recruiting', DATE '2022-01-10')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Birth Defect Registry in South West Region of France (ATENA)', 'environmental', 'other_1', 'environmental survey', 'University Hospital, Bordeaux', 'France', 'not yet recruiting', DATE '2022-03-09')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Early Intelligent Diagnosis of Limb Deformity in Children by AI and Clinic Application', 'complex', 'musc_bone_5', NULL, 'Children''s Hospital of Fudan University', 'China', 'not yet recruiting', DATE '2022-03-12')
+INTO clinical_research (topic_id, study_title, factor_type, birth_defect_id, intervention, institute, country, status, updated_date)VALUES
+(topic_id_seq.nextval, 'Efficacy and Safety of Rapamycin to Complex Vascular Anomalies in Pediatric Patients', 'environmental', 'heart_1', 'oral Rapamycin', 'Zhujiang Hospital', 'China', 'recruiting', DATE '2021-11-10')
+SELECT * FROM dual;
+
+INSERT ALL
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'MTHFR', 'C677T', 1, 'ntd_1', 'mother', NULL, NULL, 'Homo Sapiens', 'environmental, complex', '10.1002/bdr2.1842')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ABCB6', NULL, 2, 'eye_2', NULL, 'China', 'Chinese', 'Homo Sapiens', NULL, '10.1016/j.ajhg.2011.11.026')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'NOS3', 'rs1036145', 7, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'NOS3', 'rs10277237', 7, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ADD1', 'rs12503220', 4, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'GNB3', 'rs5443', 12, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ICAM1', 'rs281428', 19, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ICAM1', 'rs3093030', 19, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ICAM4', 'rs281438', 19, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ICAM5', 'rs281417', 19, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ICAM5', 'rs281440', 19, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+INTO genetic_factors (genfac_id, gene_id, allele_id, chromosome, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(genfac_id_seq.nextval, 'ICAM5', 'rs2075741', 19, 'musc_bone_4', NULL, 'USA', 'White, Hispanic, other', 'Homo Sapiens', 'environmental', 'https://doi.org/10.1002/ajmg.a.37883')
+SELECT * FROM dual;
+
+INSERT ALL
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'pregestational diabetes', 'pregnancy', 'ntd_1', 'Homo Sapiens', 'mother', 'US, UK, Canada, Pakistan, Netherlands, Portugal', 'genetic', '10.1002/bdr2.1834')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'higher alcohol consumption', 'exposure', 'ntd_1', 'Homo Sapiens', 'mother', 'US, UK, Canada, Pakistan, Netherlands, Portugal', 'genetic', '10.1002/bdr2.1834')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'aerosol', 'exposure', 'ntd_1', 'Homo Sapiens', 'mother', 'US, UK, Canada, Pakistan, Netherlands, Portugal', 'genetic', '10.1002/bdr2.1834')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'alcohol', 'exposure', 'heart_1', 'Homo Sapiens', 'mother', NULL, 'complex, genetic', '10.1002/bdr2.1743')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'dibutyl phthalate', 'water, soil', 'heart_1', 'Danio rerio', 'father', NULL, NULL, '10.1002/bdr2.1812')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'folate deficiency', 'nutrition', 'ntd_4', 'Homo sapiens', 'mother', 'Ethiopia', NULL, '10.1002/bdr2.1857')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'nicotine', 'exposure', 'other_1', 'Mus musculus', 'mother', NULL, 'epigenetic', '10.1002/bdr2.1840')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'folate deficiency', 'nutrition', 'ntd_1', 'Homo sapiens', 'mother', NULL, 'genetic, complex', '10.1002/bdr2.1842')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'Tramadol', 'medication', 'other_1', 'Rattus norvegicus albinus', 'mother', NULL, NULL, '10.1002/bdr2.1957')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'heavy pollution', 'exposure', 'other_1', 'Homo sapiens', 'mother', 'China', 'complex', '10.1371/journal.pone.0053429')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'chemical pesticide', 'exposure', 'other_1', 'Homo sapiens', 'mother', 'China', 'complex', '10.1371/journal.pone.0053429')
+INTO environmental_factors (envfac_id, env_condition, env_type, birth_defect_id, organism, affected_parent, geographic_region, associated_factors, doi) VALUES
+(envfac_id_seq.nextval, 'retinoic acid', 'exposure', 'ntd_1', 'Mus musculus', NULL, NULL, 'epigenetic', 'https://doi.org/10.1186/s13072-019-0318-1 ')
+SELECT * FROM dual;
+
+INSERT ALL
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'homocysteine', 'ntd_1', 'mother', NULL, NULL, 'Homo sapiens', 'genetic, environmental', '10.1002/bdr2.1842')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'alcohol', 'other_1', 'mother', 'China', 'Chinese', 'Homo sapiens', 'genetic, environmental', '10.1371/journal.pone.0053429')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'smoking', 'other_1', 'mother', 'China', 'Chinese', 'Homo sapiens', 'genetic, environmental', '10.1371/journal.pone.0053429')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'strong tea', 'other_1', 'mother', 'China', 'Chinese', 'Homo sapiens', 'genetic, environmental', '10.1371/journal.pone.0053429')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'maternal diseases', 'other_1', 'mother', 'China', 'Chinese', 'Homo sapiens', 'genetic, environmental', '10.1371/journal.pone.0053429')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'adverse pregnancy history', 'other_1', 'mother', 'China', 'Chinese', 'Homo sapiens', 'genetic, environmental', '10.1371/journal.pone.0053429')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'smoking', 'mouth_face_4', 'mother', 'China', 'Chinese', 'Homo sapiens', NULL, '10.1002/bdr2.1851')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'smoking', 'heart_1', 'mother', 'China', 'Chinese', 'Homo sapiens', NULL, '10.1002/bdr2.1851')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'smoking', 'mouth_face_1', 'mother', 'China', 'Chinese', 'Homo sapiens', NULL, '10.1002/bdr2.1851')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'smoking', 'stom_int_1', 'mother', 'China', 'Chinese', 'Homo sapiens', NULL, '10.1002/bdr2.1851')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'smoking', 'ntd_1', 'father', 'China', 'Chinese', 'Homo sapiens', NULL, '10.1002/bdr2.1823')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'epigenetics', 'ntd_1', 'mother', NULL, NULL, 'Mus musculus', 'epigenetic', 'https://doi.org/10.1186/s13072-021-00426-3')
+INTO complex_factors (comfac_id, complex_condition, birth_defect_id, affected_parent, geographic_region, race_ethnicity, organism, associated_factors, doi) VALUES
+(comfac_id_seq.nextval, 'epigenetics', 'ntd_1', NULL, NULL, NULL, 'Mus musculus', 'epigenetic, environmental', 'https://doi.org/10.1186/s13072-019-0318-1')
+SELECT * FROM dual;
+
+INSERT ALL
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_13', 'm6A modification', 'overexpression', NULL, 'ALKBH-5', NULL)
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_13', 'm6A modification', 'suppression', NULL, 'METTL3', NULL)
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxa4', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxa5', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxb4', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxb5', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxc4', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxc5', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxd1', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxd3', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxd4', 'H3K27me3', 'under')
+INTO epigenetic_factors (comfac_id, alteration, expression, gene_id, molecule_name, molecule_exp) VALUES
+('comfac_14', 'histone modification', 'overexpression', 'Hoxd8', 'H3K27me3', 'under')
+SELECT * FROM dual;
+
+
+
+-- Queries
+
+--1. Query 1: Select all columns and all rows from one table 
+SELECT *
+FROM birth_defects;
+
+--2. Query 2: Select five columns and all rows from one table
+SELECT topic_id, study_title, birth_defect_id, intervention, institute
+FROM clinical_research;
+ 
+--3. Query 3: Select all columns from all rows from one view 
+SELECT * FROM "Affected Mothers";
+
+--4. Query 4: Using a join on 2 tables, select all columns and all rows from the tables without the use of a Cartesian product 
+SELECT *
+FROM clinical_research c
+LEFT JOIN genetic_factors g
+ON c.birth_defect_id = g.birth_defect_id;
+
+--5. Query 5: Select and order data retrieved from one table 
+SELECT *
+FROM clinical_research
+ORDER BY study_title;
+
+--6. Query 6: Using a join on 3 tables, select 5 columns from the 3 tables. Use syntax that would limit the output to 10 rows
+SELECT b.birth_defect_id, b.birth_defect_name, c.study_title, b.birth_defect_type, e.env_condition
+FROM birth_defects b
+JOIN clinical_research c
+ON b.birth_defect_id = c.birth_defect_id
+JOIN environmental_factors
+ON b.birth_defect_id = e.birth_defect_id
+FETCH FIRST 10 ROWS ONLY;
+
+--7. Query 7: Select distinct rows using joins on 3 tables
+SELECT DISTINCT(e.env_condition) AS "Environmental condition"
+FROM genetic_factors g
+FULL JOIN environmental_factors e
+ON g.birth_defect_id = e.birth_defect_id
+FULL JOIN complex_factors c
+on g.birth_defect_id = c.birth_defect_id
+WHERE g.affected_parent = 'mother' AND e. affected_parent = 'mother' AND c.affected_parent = 'mother'
+ORDER BY e.env_condition;
+
+
+--8. Query 8: Use GROUP BY and HAVING in a select statement using one or more tables 
+SELECT COUNT(birth_defect_id), birth_defect_type
+FROM birth_defects
+GROUP BY birth_defect_type
+HAVING COUNT(birth_defect_type) > 1;
+
+
+--9. Query 9: Use IN clause to select data from one or more tables
+SELECT *
+FROM clinical_research
+WHERE country IN ('USA', 'China');
+
+--10. Query 10: Select length of one column from one table (use LENGTH function) 
+SELECT topic_id, LENGTH(study_title)
+FROM clinical_research;
+
+/*11. Query 11: Delete one record from one table. Use select statements to demonstrate the table contents before and after the DELETE statement. Make sure you use ROLLBACK afterwards so that the data will not be physically removed
+DELETE
+FROM environmental_factors
+WHERE associated_factors = NULL;
+
+/*12. Query 12: Update one record from one table. Use select statements to demonstrate the table contents before and after the UPDATE statement. Make sure you use ROLLBACK afterwards so that the data will not be physically removed*/
+UPDATE complex_factors
+SET complex_condition = 'yosi kadiri'
+WHERE complex_condition = 'smoking';
+
+--13. Perform 8 Additional Advanced Queries
+
+/*13a. SELECT top 10 most common birth defects with recorded frequencies and sort by the frequency
+Display with "1 in" in front to show the frequency of cases. Format the numbers with comma separators*/
+SELECT birth_defect_name, birth_defect_type, '1 in ' || TO_CHAR(frequency, 'fm99G999') AS "Frequency"
+FROM birth_defects
+WHERE frequency IS NOT NULL
+ORDER BY frequency
+FETCH FIRST 10 ROWS ONLY;
+
+/*13b. Display the birth defect IDs and names of birth defects that have at least one distinct research article among the factor tables.
+Calculate the sum across tables and display.*/
+SELECT b.birth_defect_id, b.birth_defect_name,
+    COUNT(DISTINCT(g.doi)) + COUNT(DISTINCT(e.doi)) + COUNT(DISTINCT(c.doi)) AS "Number of factors studied"
+FROM birth_defects b
+FULL JOIN genetic_factors g
+ON b.birth_defect_id = g.birth_defect_id
+FULL JOIN environmental_factors e
+ON b.birth_defect_id = e.birth_defect_id
+FULL JOIN complex_factors c
+ON b.birth_defect_id = c.birth_defect_id
+GROUP BY b.birth_defect_id, b.birth_defect_name
+HAVING COUNT(g.genfac_id) + COUNT(e.envfac_id) + COUNT(c.comfac_id) != 0
+ORDER BY COUNT(DISTINCT(g.doi)) + COUNT(DISTINCT(e.doi)) + COUNT(DISTINCT(c.doi)) DESC;
+
+--13c. Get the counts of all birth defects of the same type. Sort by the most to the least
+SELECT birth_defect_type, COUNT(birth_defect_id) AS "Number of birth defects"
+FROM birth_defects
+GROUP BY birth_defect_type
+ORDER BY COUNT(birth_defect_id) DESC;
+
+--13d. Select the IDs, names, and types all birth defects that have associated factors
+SELECT birth_defect_id, b.birth_defect_name, b.birth_defect_type
+FROM birth_defects b
+WHERE birth_defect_id IN
+(SELECT DISTINCT(birth_defect_id)
+FROM genetic_factors g
+FULL JOIN environmental_factors e
+USING (birth_defect_id)
+FULL JOIN complex_factors c
+USING (birth_defect_id)
+WHERE g.associated_factors IS NOT NULL OR e.associated_factors IS NOT NULL OR c.associated_factors IS NOT NULL);
+
+--13e. Find gene IDs and/or molecule names with complex factors and display the corresponding birth defect type.
+SELECT DISTINCT(e.gene_id), e.molecule_name, b.birth_defect_type
+FROM complex_factors c
+LEFT JOIN epigenetic_factors e
+ON c.comfac_id = e.comfac_id
+LEFT JOIN birth_defects b
+ON c.birth_defect_id = b.birth_defect_id
+WHERE e.gene_id IS NOT NULL OR e.molecule_name IS NOT NULL;
+
+
+/*13f. Find clinical research studies that are currently or not yet recruiting 
+where mothers have been found to be the affected parent in past research studies.*/
+SELECT r.study_title, r.institute, r.country, r.status
+FROM clinical_research r
+WHERE r.status LIKE '%recruiting%' AND
+    r.birth_defect_id  IN(
+SELECT DISTINCT(b.birth_defect_id)
+FROM birth_defects b
+FULL JOIN genetic_factors g
+ON b.birth_defect_id = g.birth_defect_id
+FULL JOIN environmental_factors e
+ON b.birth_defect_id = e.birth_defect_id
+FULL JOIN complex_factors c
+ON b.birth_defect_id = c.birth_defect_id
+WHERE g.affected_parent = 'mother' OR e.affected_parent = 'mother' OR c.affected_parent = 'mother');
+
+--13g. Clinical research studies updated as of 2019 in China that study complex conditions with research studies that are also from China
+SELECT DISTINCT(r.study_title), r.status, r.updated_date
+FROM clinical_research r
+LEFT JOIN complex_factors c
+ON r.birth_defect_id = c.birth_defect_id
+WHERE r.country = 'China' AND r.updated_date >= '01-JAN-20' AND c.geographic_region = 'China';
+
+/*13h. Get the environmental conditions, birth defect names, and frequency for all birth defects where there is an environmental factor. 
+Sort alphabetically*/
+SELECT e.env_condition AS "Environmental condition", 
+    b.birth_defect_name AS "Birth defect name", 
+        e.doi AS "Research articles"
+FROM birth_defects b
+LEFT JOIN environmental_factors e
+ON b.birth_defect_id = e.birth_defect_id
+WHERE e.env_condition IS NOT NULL
+ORDER BY e.env_condition;
