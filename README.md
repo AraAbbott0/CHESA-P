@@ -10,7 +10,7 @@ Birth defects occur in one in every 33 babies born in the United States each yea
 
 III.	Literature Review 
 
-	The birth defect data was acquired from the CDC’s Data and Statistics page for Birth Defects (Centers for Disease Control and Prevention, 2022).  For the clinical research table, I searched for keyword, “birth defects” on ClinicalTrials.gov and selected pertinent studies with the information needed to populate the table.  The multifactorial tables contain the DOI of the research articles where the data for the respective tables were collected.
+The birth defect data was acquired from the CDC’s Data and Statistics page for Birth Defects (Centers for Disease Control and Prevention, 2022).  For the clinical research table, I searched for keyword, “birth defects” on ClinicalTrials.gov and selected pertinent studies with the information needed to populate the table.  The multifactorial tables contain the DOI of the research articles where the data for the respective tables were collected.
 	
 IV.	Assumptions and considerations
 
