@@ -2,7 +2,7 @@
 
 I.	Introduction 
 
-The Comprehensive Health and Environmental Statistics Assembly for Preconception (CHESA-P) is a relational database intended for the categorization and nexus of birth defects studies published in various research journals, the Centers for Disease Control and Prevention (CDC), and ClinicalTrials.gov.  It contains information on genetic, environmental, and complex correlated factors investigated pertaining to congenital anomalies.
+The Comprehensive Health and Environmental Statistics Assembly for Preconception (CHESA-P) is a relational database intended for the categorization and nexus of birth defects studies published in various research journals and the Centers for Disease Control and Prevention (CDC).  It contains information on genetic, environmental, and complex correlated factors investigated pertaining to congenital anomalies.
 
 II.	Overview 
 
